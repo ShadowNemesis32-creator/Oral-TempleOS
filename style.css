@@ -8,7 +8,7 @@ header {
     width: 100%;
     height: 200px;
     overflow: hidden;
-    background-color: #5cdbfe;
+    background-color: #56feff;
 }
 
 header img {
@@ -18,6 +18,10 @@ header img {
 }
 
 .titre_secondaire {
+    text-align: center;
+}
+
+.titre_principal {
     text-align: center;
 }
 
@@ -32,7 +36,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 70px;
 }
 
 .liens_sommaire li a {
@@ -45,6 +49,11 @@ p {
 }
 
 .liens_sommaire a:hover {
-    background-color: white;
+    background-color: rgb(183, 182, 182);
     color: black;
+}
+
+.list_center {
+    text-align: center;
+    list-style: inside;
 }
