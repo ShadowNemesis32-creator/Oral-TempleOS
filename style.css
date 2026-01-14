@@ -30,30 +30,31 @@ p {
     text-align: center;
 }
 
-.liens_sommaire {
-    padding-top: 30px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 70px;
-}
-
-.liens_sommaire li a {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 10px;
-    border-radius: 6px;
-    transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-.liens_sommaire a:hover {
-    background-color: rgb(183, 182, 182);
-    color: black;
-}
-
 .list_center {
     text-align: center;
     list-style: inside;
+}
+
+.logo_os {
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu_navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_navigation li {
+    padding-top: 30px;
+}
+
+.barre_vertical {
+    border-left: 6px solid black;
+    height: 600px;
+    position: absolute;
+    left: 15%;
 }
