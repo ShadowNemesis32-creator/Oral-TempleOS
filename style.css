@@ -58,7 +58,7 @@ p {
     border-left: 6px solid black;
     height: 600px;
     position: absolute;
-    left: 15%;
+    left: 20%;
 }
 
 main {
@@ -68,5 +68,5 @@ main {
 
 .contenu_principal {
     flex: 1;
-    padding: 10px;
+    padding: 20px;
 }
