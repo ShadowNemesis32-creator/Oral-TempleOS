@@ -46,6 +46,8 @@ p {
 .menu_navigation {
     display: flex;
     flex-direction: column;
+    width: 200px;
+    flex-shrink: 0;
 }
 
 .menu_navigation li {
@@ -57,4 +59,14 @@ p {
     height: 600px;
     position: absolute;
     left: 15%;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+}
+
+.contenu_principal {
+    flex: 1;
+    padding: 10px;
 }
