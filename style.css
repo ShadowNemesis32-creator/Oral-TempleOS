@@ -47,23 +47,28 @@ p {
     display: flex;
     flex-direction: column;
     width: 200px;
-    flex-shrink: 0;
 }
 
 .menu_navigation li {
     padding-top: 30px;
 }
 
+.menu_navigation li a {
+    text-decoration: none;
+}
+
+.menu_navigation li a:hover {
+    text-decoration: underline;
+}
+
 .barre_vertical {
-    border-left: 6px solid black;
-    height: 700px;
-    position: absolute;
-    left: 20%;
+    border-left: 3px solid black;
 }
 
 main {
     display: flex;
     gap: 50px;
+    font-size: large;
 }
 
 .contenu_principal {
